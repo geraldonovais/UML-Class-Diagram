@@ -55,3 +55,33 @@ Examples:
 * Animal and Dog: Dog is a subclass of Animal, inheriting properties like eat() and sleep() from Animal.
 * Vehicle and Car: Car is a subclass of Vehicle, inheriting characteristics like drive() and refuel() from Vehicle.
 * Employee and Manager: Manager is a subclass of Employee, inheriting general employee properties but with additional managerial responsibilities.
+
+### 5. Realization
+
+Realization is a relationship between an interface and a class that implements that interface. It indicates that a class provides concrete behavior for the operations defined in an interface.
+
+Examples:
+
+* Drawable Interface and Circle Class: The Circle class might realize the Drawable interface, providing the implementation for the methods defined in the interface, such as draw().
+* Persistable Interface and User Class: The User class might implement the Persistable interface to provide concrete methods for saving and retrieving user data.
+* RemoteControl Interface and TV Class: The TV class might realize the RemoteControl interface, implementing methods to turn the TV on and off and change channels.
+
+### 6. Dependency
+
+Dependency indicates a relationship where one element (the client) depends on another element (the supplier) such that a change in the supplier may affect the client. This relationship is often used to show that one class uses another class or relies on it in some way.
+
+Examples:
+
+* Class A and Class B: Class A might depend on Class B if Class A uses Class B’s methods or attributes.
+* User Interface and Controller: A User Interface class might depend on a Controller class to handle user inputs and process business logic.
+* Service and Client: A Client class might depend on a Service class to perform certain operations, such as retrieving data from a database.
+    
+### 7. Association Class
+
+Association Class is used to add attributes and operations to an association between classes. It represents a relationship that has its own properties and behavior.
+
+Examples:
+
+* Enrollment in a Course and Student: An Enrollment association class could link Course and Student and include attributes like enrollmentDate and methods for enrolling and dropping courses.
+* Project Assignment between Employee and Project: The ProjectAssignment association class might include attributes such as assignmentDate and role, and operations for managing assignments.
+* Contract between Supplier and Customer: A Contract association class could link Supplier and Customer, including details like contractTerms and startDate.
