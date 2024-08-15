@@ -1,6 +1,8 @@
 # UML - Unified Modelling Language
 
-Unified Modeling Language (UML) is a standardized modeling language used in software engineering to visualize, specify, construct, and document the structure and behavior of software systems. Developed by Grady Booch, Ivar Jacobson, and James Rumbaugh in the 1990s, UML provides a set of graphical notation techniques to create abstract models of software systems. These models help stakeholders understand complex systems, facilitate communication, and ensure that the software meets its requirements.
+Unified Modeling Language (UML) is a standardized modeling language used in software engineering to visualize, specify, construct, and document the structure and behavior of software systems. 
+
+Developed by Grady Booch, Ivar Jacobson, and James Rumbaugh in the 1990s, UML provides a set of graphical notation techniques to create abstract models of software systems. These models help stakeholders understand complex systems, facilitate communication, and ensure that the software meets its requirements.
 
 ## Purposes and Benefits
 
