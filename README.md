@@ -32,6 +32,8 @@ Examples:
 
 Aggregation is a type of association that represents a "whole-part" relationship where the part can exist independently of the whole. It’s a weaker relationship compared to composition.
 
+![Aggregation](https://i.imgur.com/duzbqrD.png)
+
 Examples:
 
 * Library and Book: A Library contains multiple Books, but each Book can exist outside the context of a particular Library.
