@@ -82,7 +82,7 @@ Examples:
 
 Dependency indicates a relationship where one element (the client) depends on another element (the supplier) such that a change in the supplier may affect the client. This relationship is often used to show that one class uses another class or relies on it in some way.
 
-[Dependency](https://i.imgur.com/kFL9vb6.png)
+![Dependency](https://i.imgur.com/kFL9vb6.png)
 
 Examples:
 
