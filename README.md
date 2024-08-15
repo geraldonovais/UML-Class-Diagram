@@ -22,6 +22,8 @@ UML defines various types of relationships to model different aspects of interac
 
 Association represents a general relationship between two classes. It indicates that objects of one class are connected to objects of another class.
 
+![Association](https://i.imgur.com/vzOjkpO.png)
+
 Examples:
 
 * Customer and Order: A Customer places multiple Orders, and each Order is associated with a Customer.
@@ -32,7 +34,7 @@ Examples:
 
 Aggregation is a type of association that represents a "whole-part" relationship where the part can exist independently of the whole. It’s a weaker relationship compared to composition.
 
-![Aggregation](https://i.imgur.com/duzbqrD.png)
+![Aggregation](https://i.imgur.com/dUV4lyv.png)
 
 Examples:
 
@@ -44,6 +46,8 @@ Examples:
 
 Composition is a stronger form of aggregation where the lifetime of the part is dependent on the lifetime of the whole. If the whole is destroyed, the parts are also destroyed.
 
+![Composition](https://i.imgur.com/OHVkbw3.png)
+
 Examples:
 
 * House and Room: A House is composed of several Rooms. If the House is demolished, the Rooms no longer exist.
@@ -53,6 +57,8 @@ Examples:
 ### 4. Inheritance
 
 Inheritance denotes a relationship where a class (subclass) inherits attributes and behaviors from another class (superclass). It models an "is-a" relationship.
+
+![Inheritance](https://i.imgur.com/zLnzWJv.png)
 
 Examples:
 
@@ -64,6 +70,8 @@ Examples:
 
 Realization is a relationship between an interface and a class that implements that interface. It indicates that a class provides concrete behavior for the operations defined in an interface.
 
+![Realization](https://i.imgur.com/9g6H3X0.png)
+
 Examples:
 
 * Drawable Interface and Circle Class: The Circle class might realize the Drawable interface, providing the implementation for the methods defined in the interface, such as draw().
@@ -74,6 +82,8 @@ Examples:
 
 Dependency indicates a relationship where one element (the client) depends on another element (the supplier) such that a change in the supplier may affect the client. This relationship is often used to show that one class uses another class or relies on it in some way.
 
+[Dependency](https://i.imgur.com/kFL9vb6.png)
+
 Examples:
 
 * Class A and Class B: Class A might depend on Class B if Class A uses Class B’s methods or attributes.
@@ -83,6 +93,8 @@ Examples:
 ### 7. Association Class
 
 Association Class is used to add attributes and operations to an association between classes. It represents a relationship that has its own properties and behavior.
+
+![Association Class](https://i.imgur.com/0mwvapr.png)
 
 Examples:
 
