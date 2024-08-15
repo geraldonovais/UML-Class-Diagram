@@ -14,7 +14,7 @@ Developed by Grady Booch, Ivar Jacobson, and James Rumbaugh in the 1990s, UML pr
 
 **Analysis and Validation:** By visualizing the system, UML helps in analyzing requirements and validating that the design meets the intended goals and constraints.
 
-## Types of Relationships in UML
+## 🔗 Types of Relationships in UML
 
 UML defines various types of relationships to model different aspects of interactions and dependencies between classes and objects. Here’s an overview of some key relationships:
 
