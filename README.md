@@ -26,9 +26,9 @@ Association represents a general relationship between two classes. It indicates 
 
 Examples:
 
-* Customer and Order: A Customer places multiple Orders, and each Order is associated with a Customer.
-* Teacher and Student: A Teacher teaches multiple Students, and each Student is associated with a Teacher.
-* Doctor and Patient: A Doctor can have multiple Patients, and each Patient can be associated with multiple Doctors for different health issues.
+* _Customer_ and _Order_: A Customer places multiple Orders, and each Order is associated with a Customer.
+* _Teacher_ and _Student_: A Teacher teaches multiple Students, and each Student is associated with a Teacher.
+* _Doctor_ and _Patient_: A Doctor can have multiple Patients, and each Patient can be associated with multiple Doctors for different health issues.
 
 ### 2. Aggregation
 
@@ -38,9 +38,9 @@ Aggregation is a type of association that represents a "whole-part" relationship
 
 Examples:
 
-* Library and Book: A Library contains multiple Books, but each Book can exist outside the context of a particular Library.
-* Engine and Car: A Car contains an Engine. An Engine can exist independently of a Car, even though it's typically used within one.
-* Order and Items: An Order "has" Items. Items can exist independently of the Order (they might be canceled or modified).
+* _Library_ and _Book_: A Library contains multiple Books, but each Book can exist outside the context of a particular Library.
+* _Engine_ and _Car_: A Car contains an Engine. An Engine can exist independently of a Car, even though it's typically used within one.
+* _Order_ and _Items_: An Order "has" Items. Items can exist independently of the Order (they might be canceled or modified).
 
 ### 3. Composition
 
@@ -50,8 +50,8 @@ Composition is a stronger form of aggregation where the lifetime of the part is 
 
 Examples:
 
-* House and Room: A House is composed of several Rooms. If the House is demolished, the Rooms no longer exist.
-* Chapter and Book: A Book is made up of several Chapters. If the Book is removed or destroyed, the Chapters are inherently lost as well.
+* _House_ and _Room_: A House is composed of several Rooms. If the House is demolished, the Rooms no longer exist.
+* _Chapter_ and _Book_: A Book is made up of several Chapters. If the Book is removed or destroyed, the Chapters are inherently lost as well.
 
 ### 4. Inheritance
 
@@ -61,9 +61,9 @@ Inheritance denotes a relationship where a class (subclass) inherits attributes 
 
 Examples:
 
-* Animal and Dog: Dog is a subclass of Animal, inheriting properties like eat() and sleep() from Animal.
-* Vehicle and Car: Car is a subclass of Vehicle, inheriting characteristics like drive() and refuel() from Vehicle.
-* Employee and Manager: Manager is a subclass of Employee, inheriting general employee properties but with additional managerial responsibilities.
+* _Animal_ and _Dog_: Dog is a subclass of Animal, inheriting properties like eat() and sleep() from Animal.
+* _Vehicle_ and _Car_: Car is a subclass of Vehicle, inheriting characteristics like drive() and refuel() from Vehicle.
+* _Employee_ and _Manager_: Manager is a subclass of Employee, inheriting general employee properties but with additional managerial responsibilities.
 
 ### 5. Realization
 
