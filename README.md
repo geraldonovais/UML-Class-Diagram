@@ -73,9 +73,9 @@ Realization is a relationship between an interface and a class that implements t
 
 Examples:
 
-* Drawable Interface and Circle Class: The Circle class might realize the Drawable interface, providing the implementation for the methods defined in the interface, such as draw().
-* RemoteControl Interface and TV Class: The TV class might realize the RemoteControl interface, implementing methods to turn the TV on and off and change channels.
-* Shape Interface and Classes Circle, Rectangle, Triangle: All implement the Shape interface, providing their specific implementations for calculating area and perimeter.
+* _Drawable Interface_ and _Circle Class_: The Circle class might realize the Drawable interface, providing the implementation for the methods defined in the interface, such as draw().
+* _RemoteControl Interface_ and _TV Class_: The TV class might realize the RemoteControl interface, implementing methods to turn the TV on and off and change channels.
+* _Shape Interface_ and _Classes Circle, Rectangle, Triangle_: All implement the Shape interface, providing their specific implementations for calculating area and perimeter.
 
 ### 6. Dependency
 
@@ -85,9 +85,9 @@ Dependency indicates a relationship where one element (the client) depends on an
 
 Examples:
 
-* Class A and Class B: Class A might depend on Class B if Class A uses Class B’s methods or attributes.
-* Class Logger and Class File: Logger might use File to write log messages to a file.
-* Class DatabaseConnection and Class SqlConnection: DatabaseConnection might use SqlConnection to establish a connection to a database.
+* _Class A_ and _Class B_: Class A might depend on Class B if Class A uses Class B’s methods or attributes.
+* _Class Logger_ and _Class File_: Logger might use File to write log messages to a file.
+* _Class DatabaseConnection_ and _Class SqlConnection_: DatabaseConnection might use SqlConnection to establish a connection to a database.
     
 ### 7. Association Class
 
@@ -97,6 +97,6 @@ Association Class is used to add attributes and operations to an association bet
 
 Examples:
 
-* Enrollment in a Course and Student: An Enrollment association class could link Course and Student and include attributes like enrollmentDate and methods for enrolling and dropping courses.
-* Project Assignment between Employee and Project: The ProjectAssignment association class might include attributes such as assignmentDate and role, and operations for managing assignments.
-* Contract between Supplier and Customer: A Contract association class could link Supplier and Customer, including details like contractTerms and startDate.
+* Enrollment in a _Course_ and _Student_: An Enrollment association class could link Course and Student and include attributes like enrollmentDate and methods for enrolling and dropping courses.
+* Project Assignment between _Employee_ and _Project_: The ProjectAssignment association class might include attributes such as assignmentDate and role, and operations for managing assignments.
+* Contract between _Supplier_ and _Customer_: A Contract association class could link Supplier and Customer, including details like contractTerms and startDate.
