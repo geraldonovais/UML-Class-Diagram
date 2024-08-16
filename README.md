@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
     <img width="100" src="https://i.imgur.com/pOBw6NK.png" alt="Material Bread logo">
 </p>
 
