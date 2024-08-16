@@ -50,7 +50,7 @@ Composition is a stronger form of aggregation where the lifetime of the part is 
 
 Examples:
 
-* _House_ and _Room_: A House is composed of several Rooms. If the House is demolished, the Rooms no longer exist.
+* _House_ and _Room_: A House is composed of several Rooms. If the House is demolished, the Rooms no longer exist.  
 * _Chapter_ and _Book_: A Book is made up of several Chapters. If the Book is removed or destroyed, the Chapters are inherently lost as well.
 
 Aggregation and Composition are subsets of association, meaning they are specific cases of association. In both aggregation and composition object of one class "owns" object of another class. But there is a subtle difference:
