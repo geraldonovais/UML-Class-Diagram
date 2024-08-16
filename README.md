@@ -39,8 +39,8 @@ Aggregation is a type of association that represents a "whole-part" relationship
 Examples:
 
 * Library and Book: A Library contains multiple Books, but each Book can exist outside the context of a particular Library.
-* Company and Employee: A Company employs several Employees, but each Employee can work for different companies over time.
-* Team and Member: A Team consists of various Members, but each Member can be part of different teams or projects.
+* Engine and Car: A Car contains an Engine. An Engine can exist independently of a Car, even though it's typically used within one.
+* Order and Items: An Order "has" Items. Items can exist independently of the Order (they might be canceled or modified).
 
 ### 3. Composition
 
@@ -51,7 +51,6 @@ Composition is a stronger form of aggregation where the lifetime of the part is 
 Examples:
 
 * House and Room: A House is composed of several Rooms. If the House is demolished, the Rooms no longer exist.
-* Engine and Car: A Car contains an Engine. If the Car is scrapped, the Engine is also discarded as it is integral to the Car.
 * Chapter and Book: A Book is made up of several Chapters. If the Book is removed or destroyed, the Chapters are inherently lost as well.
 
 ### 4. Inheritance
