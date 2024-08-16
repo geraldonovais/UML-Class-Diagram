@@ -74,8 +74,8 @@ Realization is a relationship between an interface and a class that implements t
 Examples:
 
 * Drawable Interface and Circle Class: The Circle class might realize the Drawable interface, providing the implementation for the methods defined in the interface, such as draw().
-* Persistable Interface and User Class: The User class might implement the Persistable interface to provide concrete methods for saving and retrieving user data.
 * RemoteControl Interface and TV Class: The TV class might realize the RemoteControl interface, implementing methods to turn the TV on and off and change channels.
+* Shape Interface and Classes Circle, Rectangle, Triangle: All implement the Shape interface, providing their specific implementations for calculating area and perimeter.
 
 ### 6. Dependency
 
@@ -86,8 +86,8 @@ Dependency indicates a relationship where one element (the client) depends on an
 Examples:
 
 * Class A and Class B: Class A might depend on Class B if Class A uses Class B’s methods or attributes.
-* User Interface and Controller: A User Interface class might depend on a Controller class to handle user inputs and process business logic.
-* Service and Client: A Client class might depend on a Service class to perform certain operations, such as retrieving data from a database.
+* Class Logger and Class File: Logger might use File to write log messages to a file.
+* Class DatabaseConnection and Class SqlConnection: DatabaseConnection might use SqlConnection to establish a connection to a database.
     
 ### 7. Association Class
 
