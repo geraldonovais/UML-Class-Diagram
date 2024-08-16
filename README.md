@@ -1,4 +1,7 @@
-![img](https://i.imgur.com/pOBw6NK.png)
+<p align="center">
+    <img width="100" src="https://i.imgur.com/pOBw6NK.png" alt="Material Bread logo">
+</p>
+
 
 # UML - Unified Modelling Language
 
