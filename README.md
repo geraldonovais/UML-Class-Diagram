@@ -53,6 +53,11 @@ Examples:
 * _House_ and _Room_: A House is composed of several Rooms. If the House is demolished, the Rooms no longer exist.
 * _Chapter_ and _Book_: A Book is made up of several Chapters. If the Book is removed or destroyed, the Chapters are inherently lost as well.
 
+Aggregation and Composition are subsets of association, meaning they are specific cases of association. In both aggregation and composition object of one class "owns" object of another class. But there is a subtle difference:
+
+Aggregation implies a relationship where the child can exist independently of the parent. Example: Class (parent) and Student (child). Delete the Class and the Students still exist.
+Composition implies a relationship where the child cannot exist independent of the parent. Example: House (parent) and Room (child). Rooms don't exist separate to a House.
+
 ### 4. Inheritance
 
 Inheritance denotes a relationship where a class (subclass) inherits attributes and behaviors from another class (superclass). It models an "is-a" relationship.
