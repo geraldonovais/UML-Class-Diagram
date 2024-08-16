@@ -2,7 +2,6 @@
     <img width="100" src="https://i.imgur.com/pOBw6NK.png" alt="Material Bread logo">
 </p>
 
-
 # UML - Unified Modelling Language
 
 Unified Modeling Language (UML) is a standardized modeling language used in software engineering to visualize, specify, construct, and document the structure and behavior of software systems. 
